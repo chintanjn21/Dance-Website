@@ -2,7 +2,7 @@ const fs = require('fs');
 const express = require('express');
 const path = require('path');
 const app = express();
-port = 5000;
+port = process.env.PORT || 5000;
 const mongoose = require('mongoose');
 const bodyparser = require('body-parser');
 
